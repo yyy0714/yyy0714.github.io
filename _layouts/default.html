@@ -2,6 +2,20 @@
 <html>
   <head>
     <meta charset="utf-8">
+    
+    <!-- Configure MathJax -->
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'],],    // enable '$' as inline math delimiter
+          tags: 'ams'                   // enable equation numbering
+        },
+      };
+    </script>
+
+    <!-- Include MathJax JS -->
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3.0.0/es5/tex-chtml.js"></script>
+
     <title>{{ page.title }}</title>
   </head>
   <body>
