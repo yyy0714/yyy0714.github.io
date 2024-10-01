@@ -1,9 +1,9 @@
 ---
-layout: post
-title:  "MOSFET"
-date:   2024-09-25 00:00:00 -0400
-categories: jekyll update
+layout: default
+title: MOSFET
+permalink: /mosfet
 ---
+
 ## Threshold Voltage $V_{\rm t}$
 
 **Threshold voltage** is the value of gate-source voltage ($v_{\rm GS}$) at which a sufficient number of mobile electrons accumulate in the channel region to form a conducting channel.
