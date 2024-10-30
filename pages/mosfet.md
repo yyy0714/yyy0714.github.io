@@ -82,13 +82,13 @@ $$
 Where
 - $\mu_{\rm n}$ is the electron mobility, $\rm m^2/(V \cdot s)$
 
-According to equation \eqref{eq:channel-charge} and equation \eqref{eq:channel-electron-velocity}, the **channel current $i_{\rm D}$** is simply
+The **channel current $i_{\rm D}$** is simply
 
 $$
 i_{\rm D} = |\boldsymbol{\nu}| \cdot \frac{Q}{L}
 $$
 
-Hence
+According to equation \eqref{eq:channel-charge} and equation \eqref{eq:channel-electron-velocity}
 
 $$
 \boxed{
