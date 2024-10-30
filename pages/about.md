@@ -6,5 +6,5 @@ permalink: /about
 # About
 
 {::nomarkdown}
-<div class="alert alert-primary" role="alert">Hello!</div>
+    <div class="alert alert-primary" role="alert">Hello!</div>
 {:/}

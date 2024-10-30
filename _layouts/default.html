@@ -25,10 +25,12 @@
   </head>
 
   <body>
-    <!-- Include navigation bar -->
-    <div class="container">
-      {% include navigation.html %}
-    </div>
+    <!-- Include navigation bar for all pages except home page -->
+    {% if page.url != "/" %}
+      <div class="container">
+        {% include navigation.html %}
+      </div>
+    {% endif %}
 
     <!-- Include content -->
     <div class="container">
