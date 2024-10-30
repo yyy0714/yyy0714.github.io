@@ -82,7 +82,7 @@ $$
 Where
 - $\mu_{\rm n}$ is the electron mobility, $\rm m^2/(V \cdot s)$
 
-The **channel current $i_{\rm D}$** is simply
+By the definition of **channel current $i_{\rm D}$**
 
 $$
 i_{\rm D} = |\boldsymbol{\nu}| \cdot \frac{Q}{L}
