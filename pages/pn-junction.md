@@ -6,7 +6,7 @@ permalink: /pn-junction
 
 ## Drift Current $I_{\rm S}$
 
-When an electric field $\mathbf{E}$ is applied across the semiconductor, for holes
+When an electric field $\mathbf{E}$ is applied across the semiconductor
 
 $$
 \begin{equation}
