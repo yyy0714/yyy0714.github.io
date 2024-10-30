@@ -109,8 +109,6 @@ $$
 r_{\rm DS} = \frac{1}{\mu_{\rm n} \cdot C_{\rm ox} \cdot \frac{W}{L} \cdot v_{\rm ov}}
 $$
 
----
-
 ### Quadratic Region: Medium $v_{\rm DS}$
 
 As $v_{\rm DS}$ increases, we can no longer assume that the voltage between the gate and various points along the channel is uniform and equal to $v_{\rm GS}$. Instead, the voltage of interest near the source now is $v_{\rm GS} - v_{\rm DS}$.
