@@ -60,7 +60,9 @@ For the following sections, a few assumptions are made:
 
 ---
 
-## Linear Region: Small $v_{\rm DS}$
+## Channel Current $i_{\rm D}$
+
+### Linear Region: Small $v_{\rm DS}$
 
 Since $v_{\rm DS}$ is small, we can assume that the voltage between the gate and various points along the channel is uniform and equal to $v_{\rm GS}$.
 
@@ -82,7 +84,7 @@ $$
 Where
 - $\mu_{\rm n}$ is the electron mobility, $\rm m^2/(V \cdot s)$
 
-By the definition of **channel current $i_{\rm D}$**
+By the definition of current (charge per unit time)
 
 $$
 i_{\rm D} = |\boldsymbol{\nu}| \cdot \frac{Q}{L}
@@ -109,7 +111,7 @@ $$
 
 ---
 
-## Quadratic Region: Medium $v_{\rm DS}$
+### Quadratic Region: Medium $v_{\rm DS}$
 
 As $v_{\rm DS}$ increases, we can no longer assume that the voltage between the gate and various points along the channel is uniform and equal to $v_{\rm GS}$. Instead, the voltage of interest near the source now is $v_{\rm GS} - v_{\rm DS}$.
 
@@ -124,7 +126,7 @@ $$
 }
 $$
 
-## Saturation Region: Large $v_{\rm DS}$
+### Saturation Region: Large $v_{\rm DS}$
 When $v_{\rm DS} \geq v_{\rm ov}$, the channel is **pinched off**. Further increasing $v_{\rm DS}$ would cause **channel-length modulation**.
 
 $$
