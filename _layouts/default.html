@@ -10,6 +10,9 @@
     <!-- Include Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Include custom CSS -->
+    <link href="/assets/css/main.css" rel="stylesheet">
+
     <!-- Configure MathJax -->
     <script>
       MathJax = {
@@ -27,13 +30,13 @@
   <body>
     <!-- Include navigation bar for all pages except home page -->
     {% if page.url != "/" %}
-      <div class="container-md w-50 my-3">
+      <div class="container my-3">
         {% include navigation.html %}
       </div>
     {% endif %}
 
     <!-- Include content -->
-    <div class="container-md w-50">
+    <div class="container">
       {{ content }}
     </div>
   </body>
