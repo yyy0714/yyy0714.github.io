@@ -27,13 +27,13 @@
   <body>
     <!-- Include navigation bar for all pages except home page -->
     {% if page.url != "/" %}
-      <div class="container">
+      <div class="container w-50 my-3">
         {% include navigation.html %}
       </div>
     {% endif %}
 
     <!-- Include content -->
-    <div class="container">
+    <div class="container w-50">
       {{ content }}
     </div>
   </body>
