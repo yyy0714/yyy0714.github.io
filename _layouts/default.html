@@ -13,6 +13,9 @@
     <!-- Include custom CSS -->
     <link href="/assets/css/main.css" rel="stylesheet">
 
+    <!-- Include Google Noto Sans Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans" rel="stylesheet">
+
     <!-- Configure MathJax -->
     <script>
       MathJax = {
@@ -28,15 +31,18 @@
   </head>
 
   <body>
-    <!-- Include navigation bar for all pages except home page -->
-    {% if page.url != "/" %}
-      <div class="container my-3">
-        {% include navigation.html %}
-      </div>
-    {% endif %}
+    <!-- Include navigation bar -->
+    <div class="container mb-3">
+      {% include navigation.html %}
+    </div>
+
+    <!-- Include title -->
+    <div class="container mb-4 h1">
+      {{ page.title }}
+    </div>
 
     <!-- Include content -->
-    <div class="container">
+    <div class="container mt-4">
       {{ content }}
     </div>
   </body>

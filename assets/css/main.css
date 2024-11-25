@@ -3,3 +3,7 @@
       max-width: 700px;
     }
 }
+
+* {
+  font-family: "Noto Sans", "Helvetica", sans-serif;
+}
