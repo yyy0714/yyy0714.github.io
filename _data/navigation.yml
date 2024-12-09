@@ -1,8 +1,14 @@
 # - name: Home
 #   link: /
+
 - name: About
   link: /about.html
+
 - name: PN Junction
   link: /pn-junction.html
+
 - name: MOSFET
   link: /mosfet.html
+
+- name: ALOHA
+  link: /aloha.html
