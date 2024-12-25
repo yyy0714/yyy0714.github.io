@@ -54,7 +54,7 @@ Where
 For the following sections, a few assumptions are made:
 - **Enhancement-type *n*-channel MOSFET** is used.
 - Source and base are connected to the gound ($v_{\rm S} = v_{\rm B} = 0$).
-- $v_{\rm GS}$ is held constant and $v_{\rm GS} > V_t$.
+- $v_{\rm GS}$ is held constant and $v_{\rm GS} > V_{\rm t}$.
 - $v_{\rm DS}$ is positive, so electrons flow from source to drain.
 - **Channel-length modulation** is ignored when $v_{\rm DS}$ is small and medium.
 
